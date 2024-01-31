@@ -1,7 +1,10 @@
-const Hello = () => {
+import './App.css'
+
+function App() {
+
   return (
-    <h1>Hello Kalvians</h1>
+    <h1>Hello Kalvium</h1>
   )
 }
 
-export default Hello
+export default App

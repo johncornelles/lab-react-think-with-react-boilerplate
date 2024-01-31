@@ -1,36 +1,44 @@
-// const container = document.getElementById("react-container")
-// ReactDOM.render("I am death straight up!!!",container);
+// var reactContainer = document.getElementById('react-container')
+// ReactDOM.render("HELLO WORLD", reactContainer)
+
+
+// // Functional component
 // const Container = () =>{
 //     return React.createElement(`div`,null,`Hey Kalvians! Welcome to React Learning`,
 //        React.createElement(`div`,null,`Let's rock and roll`)
 //        );
 // }
-// const container1 = document.getElementById('react-container');
-// ReactDOM.render(React.createElement(Container),container1);
+// // Render the Container
+// const container = document.getElementById('react-container');
+// ReactDOM.render(React.createElement(Container),container);
+
 
 // class ReactContainer extends React.Component{
-//   // constructor - to initialize the state 
+//     // constructor - to initialize the state
 
-//   // render method to render the react dom 
+//     // render method to render the react dom
 //     render(){
 //         return React.createElement(`div`,null,`Hey Kalvians`,
 //         React.createElement(`div`,null,`Let's rock and roll with classes`)
 //         );
 //     }
-  
+    
 // }
-// const container2 = document.getElementById('react-container');
-// ReactDOM.render(React.createElement(ReactContainer),container2);
+// const container = document.getElementById('react-container');
+// ReactDOM.render(React.createElement(ReactContainer),container);
+
+
 class ReactContainer extends React.Component{
     // JSX tags
     // JSX there should be one parent element
       render(){
           return (
-          <div>Hello! Welcome to Kalvium   
+          <div>Hello! Welcome to Kalvium
              <div>This is babel</div>
          </div> )
       };  
   }
 
 const container = document.getElementById('react-container');
-ReactDOM.render(<ReactContainer/>,container)
+// Direclty pass the component to render
+ReactDOM.render(<ReactContainer/>,container);
